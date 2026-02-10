@@ -1,0 +1,21 @@
+# Cloudflare Pages `_redirects`
+# Format: [source] [destination] [code?]
+# Notes:
+# - Cloudflare Pages requires numeric status codes. Do NOT use Netlify-style "301!" tokens.
+# - Do NOT attempt host canonicalization here (Pages.dev + www -> apex). Use Cloudflare Rules -> Bulk Redirects.
+# - Do NOT redirect extensionless -> .html (it fights Pages defaults). Use 200 rewrites only if needed.
+
+# New pages (clean URL rewrites)
+/residential-electrician-allegan-mi /residential-electrician-allegan-mi.html 200
+/commercial-electrician-allegan-mi /commercial-electrician-allegan-mi.html 200
+/commercial-led-lighting-retrofit /commercial-led-lighting-retrofit.html 200
+/commercial-electrical-maintenance /commercial-electrical-maintenance.html 200
+/electrical-design-consultation /electrical-design-consultation.html 200
+/thank-you /thank-you.html 200
+
+# Canonicalize known duplicates
+/financing.html /financing 301
+
+# Legacy aliases
+/index.html / 301
+/home / 301

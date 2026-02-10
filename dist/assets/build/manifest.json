@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-02-10T17:19:35.482Z",
+  "dist": "dist",
+  "css": "/assets/build/main-5e26065ac2.css",
+  "js": "/assets/build/app-7c1c089a39.js",
+  "sources": {
+    "css": [
+      "css/design-tokens.css",
+      "styles.css",
+      "css/components.css"
+    ],
+    "js": [
+      "script.js"
+    ],
+    "missing": {
+      "css": [],
+      "js": []
+    }
+  }
+}
