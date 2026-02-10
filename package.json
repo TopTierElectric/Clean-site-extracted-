@@ -1,0 +1,17 @@
+{
+  "name": "toptier-electrical",
+  "version": "1.0.0",
+  "description": "Top Tier Electrical – Trusted electrician serving West Michigan.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "prop-types": "15.8.1"
+  }
+}
